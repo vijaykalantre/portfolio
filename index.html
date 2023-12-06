@@ -7,11 +7,12 @@
     <title>Vijay Kalantre</title>
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="./css/input.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
 </head>
 
-<body class="bg-white">
-    <section class="text-white bg-hero-bg h-screen bg-no-repeat bg-cover">
+<body class="bg-white beh">
+    <section   class="text-white bg-hero-bg h-screen bg-no-repeat bg-cover">
         <div class="xl:max-w-7xl relative h-screen lg:px-5 px-3 mx-auto pt-7">
             <div class="flex items-center justify-between">
                 <div>
@@ -19,19 +20,19 @@
                 </div>
                 <div class="hidden xl:block">
                     <ul class="poppins uppercase text-base font-medium tracking-wider flex gap-6">
-                        <li class="cursor-pointer">Home</li>
-                        <li class="cursor-pointer">About</li>
-                        <li class="cursor-pointer">Services</li>
-                        <li class="cursor-pointer">Portfolio</li>
-                        <li class="cursor-pointer">Contact</li>
+                        <li class="cursor-pointer"><a href="#home">  Home </a></li>
+                        <li class="cursor-pointer"><a href="#about">  About </a></li>
+                        <li class="cursor-pointer"><a href="#services">  Services </a></li>
+                        <li class="cursor-pointer"><a href="#portfolio">  Portfolio </a></li>
+                        <li class="cursor-pointer"><a href="#contact">  Contact </a></li>
                     </ul>
                 </div>
                 <div class="block  xl:hidden ">
-                    <button><a href="#" class="uppercase poppins text-base  font-medium tracking-wider">Contact
+                    <button><a href="#contact" class="uppercase poppins text-base  font-medium tracking-wider">Contact
                             US</a></button>
                 </div>
             </div>
-            <div class="urbanist h-4/5  justify-center flex items-center">
+            <div class="urbanist h-4/5  justify-center flex items-center"  >
                 <div class="">
                     <h1 class="font-bold text-lg lg:text-xl">I’M A</h1>
                     <h1 class="font-bold text-3xl lg:text-5xl">UI/UX DESIGNER</h1>
@@ -81,7 +82,7 @@
 
 
 
-    <section class="xl:max-w-7xl lg:px-5 my-10 px-3 mx-auto pt-7">
+    <section id="about" class="xl:max-w-7xl lg:px-5 my-10 px-3 mx-auto pt-7">
         <div class="poppins">
             <div>
                 <h1 class="text-[#0147C3] font-bold text-2xl">About</h1>
@@ -144,7 +145,7 @@
 
 
 
-    <section class="xl:max-w-7xl lg:px-5 my-10 mt-20 px-3 mx-auto pt-7">
+    <section id="services" class="xl:max-w-7xl lg:px-5 my-10 mt-20 px-3 mx-auto pt-7">
         <div class="poppins">
             <div>
                 <h1 class="text-[#0147C3] font-bold text-2xl">Services</h1>
@@ -231,7 +232,7 @@
 
 
 
-    <section class="xl:max-w-7xl lg:px-5 my-10 mt-20 px-3 mx-auto pt-7 poppins">
+    <section id="portfolio" class="xl:max-w-7xl lg:px-5 my-10 mt-20 px-3 mx-auto pt-7 poppins">
         <div>
             <div>
                 <h1 class="text-[#0147C3] font-bold text-2xl">Projects</h1>
@@ -282,7 +283,7 @@
 
 
 
-    <section class="xl:max-w-7xl lg:px-5 my-10 mt-20 px-3 mx-auto pt-7 poppins">
+    <section id="contact" class="xl:max-w-7xl lg:px-5 my-10 mt-20 px-3 mx-auto pt-7 poppins">
         <div>
             <div>
                 <h1 class="text-[#0147C3] font-bold text-2xl">Contact</h1>
@@ -367,7 +368,7 @@
                             <h2 class="capitalize text-xl lg:text-6xl max-w-md font-semibold">Want to work with me?</h2>
                         </div>
                         <div>
-                            <form class="flex flex-col  mx-auto">
+                            <form class="flex flex-col  mx-auto" action="https://getform.io/f/595171fc-5e6c-47af-86a8-25ee8e2dd26c" method="post">
 
                                 <input type="text" name="name" placeholder="Your Name"
                                     class="mb-5 border border-gray-300 rounded-lg px-2 py-3 " required>
@@ -390,8 +391,11 @@
     </div>
     </div>
 
+    <script>
+        AOS.init();
+    </script>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
 

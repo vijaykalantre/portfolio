@@ -10,7 +10,9 @@
 font-family: 'Poppins', sans-serif; 
 
 font-family: 'Urbanist', sans-serif;  */
-
+html {
+    scroll-behavior: smooth;
+  }
 
     .aoboshi {
         font-family: 'Aoboshi One', serif;
