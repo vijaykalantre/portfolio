@@ -20,5 +20,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     document.querySelector(".nav-links").classList.remove("show");
   });
 });
+function openResume() {
+  document.getElementById("resumeModal").style.display = "flex";
+}
+
+function closeResume() {
+  document.getElementById("resumeModal").style.display = "none";
+}
+
+/* Close popup when clicking outside */
+window.onclick = function (event) {
+  const modal = document.getElementById("resumeModal");
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+};
+
 
 
