@@ -613,6 +613,32 @@ body {
     justify-content: center;
   }
 }
+workflow-section {
+  background-color: #FDFDFE;
+  width: 100%;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+
+  /* 🔥 KEY LINE */
+  overflow: hidden;
+}
+
+.workflow-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .workflow-section {
+    margin: 40px auto;
+  }
+
+  .workflow-img {
+    width: 100%;
+  }
+}
 
 
 
